@@ -26,6 +26,11 @@ Each endpoint is constructed from a `{base-url}` prefix that is based on the dat
 |---|-------|
 |US|`https://api.us-west-1.saucelabs.com/`|
 |Europe|`https://api.eu-central-1.saucelabs.com/`|
+|APAC|`https://apac-southeast-1.saucelabs.com/`|
+
+:::note
+The APAC data center is still in the beta phase. For more information, see [Australian Data Center](https://docs.saucelabs.com/basics/data-center-endpoints/aust-early-access).
+:::
 
 ### Authentication
 

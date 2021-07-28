@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Thanks to a new virtual cloud data center in Australia (Sydney), your testing teams in APAC will benefit from more performant test runs on Sauce Labs, along with improved security and reliability through our best-in-class cloud technology.
 
 :::note
-While the functionality that’s currently available for tests run in this region is limited, you also have access to the US West region as part of this trial license; for details, see Supported Features.
+While the functionality that’s currently available for tests run in this region is limited, you also have access to the US West region as part of this trial license; for details, see [Supported Features](https://docs.saucelabs.com/basics/data-center-endpoints/aust-early-access/#supported-features).
 :::
 
 ## Getting Started for New Free Trial Customers
@@ -27,6 +27,8 @@ To run tests on Sauce Labs, outbound communication from your network must be all
 Depending on your network configuration, your network administrator may need to add the following Selenium endpoint to your allow list: `https://ondemand.apac-southeast-1.saucelabs.com`
 
 To allow inbound and outbound connections to Sauce Labs Services using IP addresses, use the following IP range(s): `34.87.251.80/28`
+
+For more information, see [APAC Data Center](https://docs.saucelabs.com/basics/data-center-endpoints/data-center-endpoints/#apac-data-center)
 
 :::note
 Because Sauce Connect Proxy is not currently available for the APAC region, you should plan to run tests only on publicly available sites.

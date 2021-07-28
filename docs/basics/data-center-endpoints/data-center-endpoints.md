@@ -127,7 +127,7 @@ URLs vary based on the services you're using, your DC, and the types of tests yo
 
 ### EU Data Center
 :::note
-Depending on the framework or driver you use, you might need to make additional changes to your tests to run them in the EU-Central DC. See Running Tests on EU-Central for details.
+Depending on the framework or driver you use, you might need to make additional changes to your tests to run them in the EU-Central DC. See [Running Tests on EU-Central](https://docs.saucelabs.com/basics/data-center-endpoints/data-center-endpoints/#running-tests-on-eu-central) for details.
 :::
 
 | Name | Details |
@@ -143,6 +143,19 @@ Depending on the framework or driver you use, you might need to make additional 
 | Real Devices on Test Object | `https://app.testobject.com/api/rest/` |
 | Sauce Connect Proxy | Virtual and Real Devices on Sauce: `https://eu-central-1.saucelabs.com/rest/v1`<br/>Real Devices on Test Object: `https://eu1.api.testobject.com/sc/rest/v1` |
 | IP Ranges | `185.94.24.0/22` |
+
+### APAC Data Center
+:::note
+The APAC data center is still in the beta phase. For more information, see [Australian Data Center](https://docs.saucelabs.com/basics/data-center-endpoints/aust-early-access).
+:::
+
+| Name | Details |
+|---|---|
+| **APAC Endpoints** |   |
+| RDC on Sauce | `https://ondemand.apac-southeast-1.saucelabs.com` |
+| **APAC REST API** |   |
+| RDC on Sauce | `https://apac-southeast-1.saucelabs.com/rest/v1/` |
+| IP Ranges | `34.87.251.80/28` |
 
 ### Headless Data Center (US-Only)
 For more information on Sauce Headless, including full test walkthroughs, see [Sauce Headless Testing in the Cross-Browser Cloud](/headless).
